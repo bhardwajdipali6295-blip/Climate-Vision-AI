@@ -1,0 +1,4 @@
+cd backend
+pip install -r requirements.txt   # just Flask
+python seed_db.py                 # creates climate.db with seeded data
+python app.py                     # serves API at http://localhost:5000
